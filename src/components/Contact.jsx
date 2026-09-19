@@ -1,3 +1,5 @@
+import Biodata from "../props/PersonCard";
+
 function Contact() {
   return (
     <section
@@ -21,6 +23,14 @@ function Contact() {
         </div>
 
         <div className="lg:col-span-8">
+          <div className="mb-10 max-w-4xl">
+            <Biodata
+              name="Emiliano Waturandang"
+              age={23}
+              hobby="Video Editor, 3D Blender, and Designer"
+              city="Manado"
+            />
+          </div>
 
           <a
             href="mailto:hello@example.com"

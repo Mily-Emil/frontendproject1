@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Project from "./components/Project";
 import About from "./components/About";
-import Stack from "./components/Skills";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 
